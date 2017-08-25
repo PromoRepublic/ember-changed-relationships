@@ -1,6 +1,5 @@
 import Ember from 'ember';
-import lodash from 'lodash';
-const { isEqual } = lodash;
+import { isEqual } from 'lodash';
 
 const { Mixin } = Ember;
 const mapById = function(member) {
